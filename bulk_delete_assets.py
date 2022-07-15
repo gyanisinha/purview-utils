@@ -22,7 +22,7 @@ if __name__ == "__main__":
         authentication=oauth
     )
 
-
+    #modify the filter_setup as necessary
     #filter_setup = {"assetType": "Azure Synapse Analytics"}
     #filter_setup = {"entityType": "azure_synapse_dedicated_sql_table"}
     #filter_setup = {"collectionId":"rwk7yo"}
