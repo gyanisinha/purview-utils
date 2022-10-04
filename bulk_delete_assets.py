@@ -1,3 +1,5 @@
+import json
+import os
 # PyApacheAtlas packages
 # Connect to Atlas via a Service Principal
 from pyapacheatlas.auth import ServicePrincipalAuthentication
@@ -28,7 +30,6 @@ if __name__ == "__main__":
     #filter_setup = {"collectionId":"rwk7yo"}
     #filter_setup = {"and": [{"collectionId":"rwk7yo"}, {"assetType": "Azure Data Lake Storage Gen2"}]}
     #query = client.discovery.search_entities('*', search_filter=filter_setup )
-    
     
     
     limit = 1000 #to delete upto 1000 assets
