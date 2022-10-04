@@ -26,25 +26,33 @@ if __name__ == "__main__":
     #filter_setup = {"assetType": "Azure Synapse Analytics"}
     #filter_setup = {"entityType": "azure_synapse_dedicated_sql_table"}
     #filter_setup = {"collectionId":"rwk7yo"}
-    filter_setup = {"and": [{"collectionId":"rwk7yo"}, {"assetType": "Azure Data Lake Storage Gen2"}]}
-    query = client.discovery.search_entities('*', search_filter=filter_setup )
+    #filter_setup = {"and": [{"collectionId":"rwk7yo"}, {"assetType": "Azure Data Lake Storage Gen2"}]}
+    #query = client.discovery.search_entities('*', search_filter=filter_setup )
     
+    
+    
+    limit = 1000
+    collection_id = "<enter value>"
+    filter_setup = {"and": [{"collectionId":collection_id}, {"assetType": "Azure Data Lake Storage Gen2"}]}
+    query = client.discovery.query(limit=limit, filter=filter_setup)
+    
+    query_list = []
     batch = []
 
-    for entry in query:       
-            batch.append(entry["id"])
-            if len(batch) == 1000:
-                #uncomment delete after you have tested the output using print(batch)
-                #client.delete_entity(guid=batch)
-                batch = []
-        
-            # Out of loop, clean up batches
-            if len(batch) > 0:
-                #uncomment delete after you have tested the output using print(batch)
-                #client.delete_entity(guid=batch)
-                print("Done")
+    for entry in query["value"]:       
+        query_list.append(entry["id"])
 
-    print(batch)  
-    print(len(batch))
+    print(query_list)
+    print("Total #assets to be deleted:", len(query_list))
+
+    start = 0
+    end = len(query_list)
+    batch_size = 100
+    for iter in range(start, end, batch_size):
+        batch = query_list[iter:iter+batch_size]
+        print("Deleting:", len(batch))
+        client.delete_entity(guid=batch)
+
+    print("Done")
 
   
