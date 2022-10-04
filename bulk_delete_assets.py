@@ -31,7 +31,7 @@ if __name__ == "__main__":
     
     
     
-    limit = 1000
+    limit = 1000 #to delete upto 1000 assets
     collection_id = "<enter value>"
     filter_setup = {"and": [{"collectionId": collection_id}, {"assetType": "Azure Data Lake Storage Gen2"}]}
     query = client.discovery.query(limit=limit, filter=filter_setup)
