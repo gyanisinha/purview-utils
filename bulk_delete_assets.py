@@ -33,7 +33,7 @@ if __name__ == "__main__":
     
     limit = 1000
     collection_id = "<enter value>"
-    filter_setup = {"and": [{"collectionId":collection_id}, {"assetType": "Azure Data Lake Storage Gen2"}]}
+    filter_setup = {"and": [{"collectionId": collection_id}, {"assetType": "Azure Data Lake Storage Gen2"}]}
     query = client.discovery.query(limit=limit, filter=filter_setup)
     
     query_list = []
