@@ -47,8 +47,8 @@ if __name__ == "__main__":
         valid = entry.get("endorsement")
         if valid:
             if entry["endorsement"][0] == "certified":
-                query_list.append(entry["qualifiedName"],)
+                query_list.append(entry["qualifiedName"])
 
-    print("Total certified assets and recently modified:",len(query_list))
+    print("Total certified assets and recently modified:", len(query_list))
  
     print(query_list)
