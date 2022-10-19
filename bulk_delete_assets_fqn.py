@@ -7,7 +7,7 @@ from pyapacheatlas.core import PurviewClient, AtlasEntity, AtlasProcess
 from pyapacheatlas.core.util import GuidTracker
 
 if __name__ == "__main__":
-    purview_Account_Name = "gymspvdg"
+    purview_Account_Name = "<enter value>"
     oauth = ServicePrincipalAuthentication(
     client_id="<enter value>",
     tenant_id="<enter value>",    
