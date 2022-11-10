@@ -13,3 +13,7 @@ custom scripts using APIs/SDKs
 
 ### Search modified assets based on modifiedTime and filter those which are "certified" (using pyapacheatlas)
 [search_modified_assets.py](https://github.com/gyanisinha/purview-utils/blob/main/search_modified_assets.py)
+
+
+### Find ADLS assets with missing schema (using pyapacheatlas)
+[find_adls_assets_with_missing_schema.py](https://github.com/gyanisinha/purview-utils/blob/main/find_adls_assets_with_missing_schema.py)
