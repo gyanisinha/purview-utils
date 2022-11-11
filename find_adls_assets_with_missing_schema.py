@@ -45,7 +45,7 @@ if __name__ == "__main__":
 
     start = 0
     end = len(query_list)
-    batch_size = 100
+    batch_size = 50
     for iter in range(start, end, batch_size):
         batch = query_list[iter:iter+batch_size]
         response = client.get_entity(batch)
