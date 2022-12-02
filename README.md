@@ -1,5 +1,5 @@
 # purview-utils
-## sample custom scripts using APIs/SDKs for stewardship activites on data catalog**
+## sample custom scripts using APIs/SDKs for stewardship activites
 
 
 ### Bulk Delete Assets (using pyapacheatlas)
