@@ -1,5 +1,5 @@
 # purview-utils
-custom scripts using APIs/SDKs
+**sample custom scripts using APIs/SDKs for stewardship activites on data catalog**
 
 
 ### Bulk Delete Assets (using pyapacheatlas)
@@ -21,3 +21,9 @@ custom scripts using APIs/SDKs
 
 ### Find Dedicated SQL Pool Assets (tables/views) with missing schema (using pyapacheatlas)
 [find_sqldw_assets_with_missing_schema.py](https://github.com/gyanisinha/purview-utils/blob/main/find_sqldw_assets_with_missing_schema.py)
+
+### Bulk update schema (if missing) for Dedicated SQL Pool Assets (tables/views)  (using pyapacheatlas)
+[bulk_update_missing_schema_sqldw.py](https://github.com/gyanisinha/purview-utils/blob/main/find_sqldw_assets_with_missing_schema.py)
+
+Input template for tables: [BulkUpdateMissingSchema_table.xlsx](https://github.com/gyanisinha/purview-utils/files/10143249/BulkUpdateMissingSchema_table.xlsx)
+Input template for views: [BulkUpdateMissingSchema_view.xlsx](https://github.com/gyanisinha/purview-utils/files/10143264/BulkUpdateMissingSchema_view.xlsx)
