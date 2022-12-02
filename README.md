@@ -17,3 +17,7 @@ custom scripts using APIs/SDKs
 
 ### Find ADLS assets with missing schema (using pyapacheatlas)
 [find_adls_assets_with_missing_schema.py](https://github.com/gyanisinha/purview-utils/blob/main/find_adls_assets_with_missing_schema.py)
+
+
+### Find Dedicated SQL Pool Assets (tables/views) with missing schema (using pyapacheatlas)
+[find_sqldw_assets_with_missing_schema.py](https://github.com/gyanisinha/purview-utils/blob/main/find_sqldw_assets_with_missing_schema.py)
