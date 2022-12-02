@@ -26,4 +26,5 @@
 [bulk_update_missing_schema_sqldw.py](https://github.com/gyanisinha/purview-utils/blob/main/find_sqldw_assets_with_missing_schema.py)
 
 Input template for tables: [BulkUpdateMissingSchema_table.xlsx](https://github.com/gyanisinha/purview-utils/files/10143249/BulkUpdateMissingSchema_table.xlsx)
+
 Input template for views: [BulkUpdateMissingSchema_view.xlsx](https://github.com/gyanisinha/purview-utils/files/10143264/BulkUpdateMissingSchema_view.xlsx)
