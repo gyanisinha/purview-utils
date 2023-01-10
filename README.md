@@ -30,8 +30,15 @@
 ---
 
 ### Bulk update schema (if missing) for Dedicated SQL Pool Assets (tables/views)  (using pyapacheatlas)
-[bulk_update_missing_schema_sqldw.py](https://github.com/gyanisinha/purview-utils/blob/main/find_sqldw_assets_with_missing_schema.py)
+[bulk_update_missing_schema_sqldw.py](https://github.com/gyanisinha/purview-utils/blob/main/bulk_update_missing_schema_sqldw.py)
 
 Input template for tables: [BulkUpdateMissingSchema_table.xlsx](https://github.com/gyanisinha/purview-utils/files/10143249/BulkUpdateMissingSchema_table.xlsx)
 
 Input template for views: [BulkUpdateMissingSchema_view.xlsx](https://github.com/gyanisinha/purview-utils/files/10143264/BulkUpdateMissingSchema_view.xlsx)
+
+---
+
+### Bulk create entites with schema details for Dedicated SQL Pool Assets (tables)  (using pyapacheatlas)
+[bulk_create_entities_sqldw.py](https://github.com/gyanisinha/purview-utils/blob/main/bulk_create_entities_sqldw.py)
+
+Input template for tables: [BulkUploadEntities.xlsx](https://github.com/gyanisinha/purview-utils/files/10143249/BulkUploadEntities.xlsx)
