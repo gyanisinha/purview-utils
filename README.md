@@ -39,7 +39,7 @@ Input template for views: [BulkUpdateMissingSchema_view.xlsx](https://github.com
 
 ---
 
-### Bulk create entites with schema details for Dedicated SQL Pool Assets (tables)  (using pyapacheatlas)
+### Bulk create entities with schema details for Dedicated SQL Pool Assets (tables)  (using pyapacheatlas)
 [bulk_create_entities_sqldw.py](https://github.com/gyanisinha/purview-utils/blob/main/bulk_create_entities_sqldw.py)
 
 Input template for tables: [BulkUploadEntities.xlsx](https://github.com/gyanisinha/purview-utils/files/10383537/BulkUploadEntities.xlsx)
