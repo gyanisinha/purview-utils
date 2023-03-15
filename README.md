@@ -5,12 +5,12 @@
 ---
 
 
-### Bulk Delete Assets (using pyapacheatlas)
+### Bulk delete assets (using pyapacheatlas)
 [bulk_delete_assets.py](https://github.com/gyanisinha/purview-utils/blob/main/bulk_delete_assets.py)
 
 ---
 
-### Bulk Delete Assets for a list of Fully QualifiedNames (using pyapacheatlas)
+### Bulk delete assets for a list of Fully QualifiedNames (using pyapacheatlas)
 [bulk_delete_assets_fqn.py](https://github.com/gyanisinha/purview-utils/blob/main/bulk_delete_assets_fqn.py)
 
 [list_of_assets_to_be_deleted.xlsx](https://github.com/gyanisinha/purview-utils/files/9822982/list_of_assets_to_be_deleted.xlsx)
@@ -27,12 +27,12 @@
 
 ---
 
-### Find Dedicated SQL Pool Assets (tables/views) with missing schema (using pyapacheatlas)
+### Find Dedicated SQL Pool assets (tables/views) with missing schema (using pyapacheatlas)
 [find_sqldw_assets_with_missing_schema.py](https://github.com/gyanisinha/purview-utils/blob/main/find_sqldw_assets_with_missing_schema.py)
 
 ---
 
-### Bulk update schema (if missing) for Dedicated SQL Pool Assets (tables/views)  (using pyapacheatlas)
+### Bulk update schema (if missing) for Dedicated SQL Pool assets (tables/views)  (using pyapacheatlas)
 
 [bulk_update_missing_schema_sqldw.py](https://github.com/gyanisinha/purview-utils/blob/main/bulk_update_missing_schema_sqldw.py)
 
@@ -42,11 +42,17 @@ Input template for views: [BulkUpdateMissingSchema_view.xlsx](https://github.com
 
 ---
 
-### Bulk create entities with schema details for Dedicated SQL Pool Assets (tables)  (using pyapacheatlas)
+### Bulk create entities with schema details for Dedicated SQL Pool assets (tables)  (using pyapacheatlas)
 [bulk_create_entities_sqldw.py](https://github.com/gyanisinha/purview-utils/blob/main/bulk_create_entities_sqldw.py)
 
 Input template for tables: [BulkUploadEntities.xlsx](https://github.com/gyanisinha/purview-utils/files/10383537/BulkUploadEntities.xlsx)
 
+
+---
+
+
+### Move entities to another collection (using pyapacheatlas)
+[bulk_move_entities_collection.py](https://github.com/gyanisinha/purview-utils/blob/main/bulk_move_entities_collection.py)
 
 ---
 
