@@ -1,5 +1,8 @@
 # purview-utils
-## sample custom scripts using APIs/SDKs for stewardship activites
+
+## sample custom scripts using Microsoft Purview REST APIs/SDKs for stewardship activites
+Pre-reqs: https://pypi.org/project/pyapacheatlas/
+---
 
 
 ### Bulk Delete Assets (using pyapacheatlas)
