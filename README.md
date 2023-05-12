@@ -7,9 +7,8 @@
 - Create service principal: https://learn.microsoft.com/en-us/azure/purview/create-service-principal-azure
 
 ---
----
-
 ## Sample codes using Microsoft Purview REST APIs/SDKs for stewardship activites
+
 
 ### Create custom process (using pyapacheatlas)
 [custom_process.py](https://github.com/gyanisinha/purview-utils/blob/main/custom_process.py)
