@@ -1,6 +1,5 @@
 # purview-utils
 
-## sample custom scripts using Microsoft Purview REST APIs/SDKs for stewardship activites
 #### Pre-reqs: 
 
 - Read about PyApacheAtlas: https://datasmackdown.com/oss/pyapacheatlas/
@@ -9,7 +8,9 @@
 
 ---
 
-### create custom process (using pyapacheatlas)
+## Sample codes using Microsoft Purview REST APIs/SDKs for stewardship activites
+
+### Create custom process (using pyapacheatlas)
 [custom_process.py](https://github.com/gyanisinha/purview-utils/blob/main/custom_process.py)
 
 use input template for custom process: [custom_process.xlsx](https://github.com/gyanisinha/purview-utils/files/11463440/custom_process.xlsx)
