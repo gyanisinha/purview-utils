@@ -1,12 +1,33 @@
 # purview-utils
 
 ## sample custom scripts using Microsoft Purview REST APIs/SDKs for stewardship activites
-#### Pre-reqs: https://pypi.org/project/pyapacheatlas/
+#### Pre-reqs: 
+
+- Read about PyApacheAtlas: https://datasmackdown.com/oss/pyapacheatlas/
+- Install https://pypi.org/project/pyapacheatlas/
+- Create service principal: https://learn.microsoft.com/en-us/azure/purview/create-service-principal-azure
+
 ---
 
+### create custom process (using pyapacheatlas)
+[custom_process.py](https://github.com/gyanisinha/purview-utils/blob/main/custom_process.py)
+
+use input template for custom process: [custom_process.xlsx](https://github.com/gyanisinha/purview-utils/files/11463440/custom_process.xlsx)
+
+
+---
+
+### Bulk update column level lineage with custom process (created above) for existing assets (using pyapacheatlas)
+[custom_process_column_lineage.py](https://github.com/gyanisinha/purview-utils/blob/main/custom_process_column_lineage.py)
+
+use input template for columnMapping: [custom_process_column_lineage.xlsx](https://github.com/gyanisinha/purview-utils/files/11463400/custom_process_column_lineage.xlsx)
+
+
+---
 
 ### Bulk delete assets (using pyapacheatlas)
 [bulk_delete_assets.py](https://github.com/gyanisinha/purview-utils/blob/main/bulk_delete_assets.py)
+
 
 ---
 
