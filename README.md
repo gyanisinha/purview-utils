@@ -7,6 +7,7 @@
 - Create service principal: https://learn.microsoft.com/en-us/azure/purview/create-service-principal-azure
 
 ---
+---
 
 ## Sample codes using Microsoft Purview REST APIs/SDKs for stewardship activites
 
