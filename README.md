@@ -9,6 +9,13 @@
 
 ## Sample codes using Microsoft Purview REST APIs/SDKs for stewardship activites
 
+### Bulk create entites with columns (using pyapacheatlas)
+[bulk_create_entities.py](https://github.com/gyanisinha/purview-utils/blob/main/bulk_create_entities.py)
+
+use input template for bulk entities with columns: [SampleMetadataBulkUploadEntities.xlsx](https://github.com/gyanisinha/purview-utils/files/11505348/SampleMetadataBulkUploadEntities.xlsx)
+
+
+---
 
 ### Create custom process (using pyapacheatlas)
 [custom_process.py](https://github.com/gyanisinha/purview-utils/blob/main/custom_process.py)
