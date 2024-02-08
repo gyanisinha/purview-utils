@@ -1,4 +1,5 @@
 # purview-utils
+### Solution accelerators for common bulk update scenarios for Purview implementation
 
 #### Pre-reqs: 
 
